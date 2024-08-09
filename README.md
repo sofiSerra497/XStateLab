@@ -2,6 +2,7 @@
 
 Este repositorio es un espacio para explorar y aprender los fundamentos de XState. A través de ejemplos prácticos, se cubrirán conceptos como estados, transiciones, eventos y contextos.
 
+
 ## Instalación
 
 ```bash
