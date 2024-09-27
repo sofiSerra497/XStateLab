@@ -1,28 +1,70 @@
-# Aprendizaje de XState: Creando una máquina de estados simple
+# Getting Started with Create React App
 
-Este repositorio es un espacio para explorar y aprender los fundamentos de XState. A través de ejemplos prácticos, se cubrirán conceptos como estados, transiciones, eventos y contextos.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Instalación
+In the project directory, you can run:
 
-```bash
-- [git clone [https://github.com/tu-usuario/aprendizaje-xstate.git](https://github.com/tu-usuario/aprendizaje-xstate.git)
-](https://github.com/sofiSerra497/XStateLab.git)
+### `npm start`
 
-- cd aprendizaje-xstate
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- npm install
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# ¿Por qué state machines?
+### `npm test`
 
-La maquina de estado es un concepto que se usa para manejar sistemas complejos. Imagina 🌈 que tenes una aplicación que se construye a partir de varias partes. La app contiene la lógica de negocio que también se comunica con el mundo exterior. Pueden pasar un montón de acciones que a lo mejor no están contempladas. Lo que hacen los estados es mantener la maquina transparente y bien descrita (organizada). 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Cada maquina de estado contiene las siguientes partes que son 4 (como los estados del agua ): 
+### `npm run build`
 
-- Estados 😭**😡😂😱**
-- Eventos 🎊
-- Estados iniciales  🏁
-- Transiciones 🔃
-- Estados Finales **⚰️**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-El beneficio principal de las maquinas de estado es que solo pueden estar en 1 estado a la vez, la transición entre los estados de la maquina lo hace solo uno a la vez y solo se puede hacer si sucede un evento que lo permita.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
